@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import button, {greeting, superGreeting} from './../components/button'
+import Button, {greeting, superGreeting} from '../components/Button'
+import Image from './../components/Image'
 
 const HomePage = () => {
     return <div>
@@ -7,12 +8,16 @@ const HomePage = () => {
       Go to {" "}
       <Link href="/link"><a>linked page</a></Link>
       
-      <button color="red">Tohle je moje tlačítko</button>
-      <button />
-      <button children="Tohle je super tlačítko" onClick={()=>{console.log("ahoj")}} />
+      <Button color="red">Tohle je moje tlačítko</Button>
+      <Button />
+      <Button children="Tohle je super tlačítko" onClick={()=>{console.log("ahoj")}} />
       
       {greeting("Vojta")}
       {superGreeting({name: "Vojta"})}
+
+      <Image src="https://homoky-files.fra1.digitaloceanspaces.com/2020/WMntgHFm0T.png" />
+      <Image />
+      <Image />
     
     </div>
 }
