@@ -15,9 +15,8 @@ const HomePage = () => {
       {greeting("Vojta")}
       {superGreeting({name: "Vojta"})}
 
-      <Image src="https://homoky-files.fra1.digitaloceanspaces.com/2020/WMntgHFm0T.png" />
-      <Image />
-      <Image />
+      <Image src="https://homoky-files.fra1.digitaloceanspaces.com/2020/WMntgHFm0T.png" width={300} isSquare={isSquar}/>
+      
     
     </div>
 }

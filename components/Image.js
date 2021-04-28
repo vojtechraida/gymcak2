@@ -1,9 +1,20 @@
-const Image = (props) => {
+const Image = ({ src, width, isSquare }) => {
+    
+const height = isSquare ? width : "auto"
     return <img 
-        src="https://homoky-files.fra1.digitaloceanspaces.com/2020/WMntgHFm0T.png"
-        style={{width: 100, height: "auto"}}
+        src={src}
+        style={{width, height}}
         />
 }
-   
+
     
 export default Image
+
+
+const funsctionOne = (arg1, arg2 ) => 'Funkce'
+
+funsctionOne("afasdas", "asdasd")
+
+const funsctionTwo = (arg1, arg2 ) => 'Funkce'
+
+funsctionOne({ arg1: "abc", arg2: "def" })
