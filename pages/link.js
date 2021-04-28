@@ -1,13 +1,11 @@
 import Link from 'next/link'
 
 const linkPage = () => {
-    return <div>
-      Welcome to linked page!
+  return <div>
+    Welcome to linked page!
       
+  </div>
 
-    
-    
-    </div>
-  }
+}
   
-  export default linkPage
+export default linkPage
