@@ -1,9 +1,12 @@
 import Link from 'next/link'
-import Button, {greeting, superGreeting} from '../components/Button'
+import Button, {greeting, superGreeting} from './../components/Button'
 import Image from './../components/Image'
 
 const HomePage = () => {
-    return <div>
+   
+  const isSquare = false;
+  
+  return <div>
       Welcome to My page 2.0!
       Go to {" "}
       <Link href="/link"><a>linked page</a></Link>

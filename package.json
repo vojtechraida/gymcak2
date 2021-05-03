@@ -1,8 +1,6 @@
 {
   "name": "gymcak2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
